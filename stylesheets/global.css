@@ -9,3 +9,24 @@ header, main, footer {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 11;
+    color: white;
+    padding: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+button:hover {
+    background-color: blue;
+    transition: background-color .3s;
+    text-transform: uppercase;
+}
